@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Application Login"
+        android:gravity="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/etUsername"
+        android:hint="Enter Username"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/etPassword"
+        android:inputType="textPassword"
+        android:hint="Enter Password"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="Login"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnLogin"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Dont have an account? Click Here"
+        android:id="@+id/etSignup"/>
+
+</LinearLayout>
