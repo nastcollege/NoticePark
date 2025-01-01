@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignupActivity"
+    android:padding="20dp">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/app_register"
+        android:id="@+id/tvRegister"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:textColor="@color/blue"
+        android:layout_marginTop="50dp"/>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:hint="@string/app_register_first_name"
+        android:layout_below="@+id/tvRegister"
+        android:id="@+id/etFirstName"/>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:hint="@string/app_register_last_name"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/tvRegister"
+        android:layout_toRightOf="@+id/etFirstName"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:inputType="textEmailAddress"
+        android:id="@+id/etEmail"
+        android:layout_below="@id/etFirstName"
+        android:hint="@string/app_register_email"/>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:id="@+id/etPassword"
+        android:inputType="textPassword"
+        android:layout_below="@id/etEmail"
+        android:hint="@string/app_register_password"/>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:id="@+id/etConfirmPassword"
+        android:inputType="textPassword"
+        android:layout_below="@id/etEmail"
+        android:layout_toRightOf="@id/etPassword"
+        android:hint="@string/app_register_confirm"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/btnRegister"
+        android:text="@string/app_register_button"
+        android:layout_below="@id/etPassword"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/btnLogin"
+        android:text="@string/app_register_login"
+        android:layout_below="@id/btnRegister"/>
+</RelativeLayout>
+</ScrollView>
+</RelativeLayout>

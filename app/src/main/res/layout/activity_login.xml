@@ -38,6 +38,6 @@
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:text="Dont have an account? Click Here"
-        android:id="@+id/btnSignup"/>
+        android:id="@+id/btnRegister"/>
 
 </LinearLayout>

@@ -2,4 +2,14 @@
     <string name="app_name">NoticePark</string>
 
     <string name="splash_welcome">Welcome to Notice Park!!!</string>
+
+    <string name="app_register">User Registration</string>
+    <string name="app_register_first_name">First Name</string>
+    <string name="app_register_last_name">Last Name</string>
+    <string name="app_register_email">Email Address</string>
+    <string name="app_register_password">Password</string>
+    <string name="app_register_confirm">Confirm Password</string>
+    <string name="app_register_button">Register</string>
+    <string name="app_register_login">Already have an Account? Login Here</string>
+
 </resources>
