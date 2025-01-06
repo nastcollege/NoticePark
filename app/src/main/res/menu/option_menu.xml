@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mFile"
+        android:title="File"
+        android:icon="@drawable/baseline_3g_mobiledata_24"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/mEdit"
+        android:title="Edit"
+        android:icon="@drawable/baseline_3d_rotation_24"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/mLanguage"
+        android:title="Nepali/English"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mCalender"
+        android:title="En/Np"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/logout"
+        android:title="Logout"
+        app:showAsAction="ifRoom" />
+</menu>
