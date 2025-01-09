@@ -30,12 +30,9 @@ public class ListViewDemoActivity extends AppCompatActivity {
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(ListViewDemoActivity.this, android.R.layout.simple_list_item_1,pl);
         listView.setAdapter(arrayAdapter);
 
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                String sel=pl[i];
-                Toast.makeText(getApplicationContext(),sel,Toast.LENGTH_LONG).show();
-            }
+        listView.setOnItemClickListener((av, view, i, l) -> {
+            String sel=av.getItemAtPosition(i).toString();
+            Toast.makeText(getApplicationContext(),sel,Toast.LENGTH_LONG).show();
         });
 
     }
