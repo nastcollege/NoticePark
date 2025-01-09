@@ -5,22 +5,21 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ListViewDemoActivity"
     android:orientation="vertical"
-    android:padding="30dp">
+    android:padding="30dp"
+    tools:context=".ListViewDemoActivity">
 
     <ListView
+        android:id="@+id/listView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/listView"/>
+        android:layout_height="wrap_content" />
 
 
     <Spinner
+        android:id="@+id/spCountry"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:minHeight="50dp"
         android:background="#F426D2"
-        android:entries="@array/countries"
-        android:id="@+id/spCountry"/>
+        android:minHeight="50dp" />
 
 </LinearLayout>
