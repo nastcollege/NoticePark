@@ -33,12 +33,10 @@ private WebView webView;
         }
 
     }
-
     public boolean isOnline() {
         ConnectivityManager cm = (ConnectivityManager)
                 getSystemService(Context.CONNECTIVITY_SERVICE);
         return cm.getActiveNetworkInfo() != null &&
                 cm.getActiveNetworkInfo().isConnectedOrConnecting();
     }
-
 }
