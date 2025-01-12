@@ -12,10 +12,13 @@
         android:theme="@style/Theme.NoticePark"
         tools:targetApi="31">
         <activity
+            android:name=".ListViewDemoActivity"
+            android:exported="false" />
+        <activity
             android:name=".ContextDemoActivity"
             android:exported="false" />
         <activity
-            android:name=".ListViewDemoActivity"
+            android:name=".WebViewActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,7 +31,7 @@
             android:exported="false" />
         <activity
             android:name=".SplashActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".LoginActivity"
             android:exported="true" />
@@ -37,4 +40,5 @@
             android:exported="true" />
     </application>
 
+    <uses-permission android:name="android.permission.INTERNET"/>
 </manifest>
