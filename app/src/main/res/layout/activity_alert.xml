@@ -5,11 +5,20 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AlertActivity">
+    tools:context=".AlertActivity"
+    android:orientation="vertical">
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="65dp"
         android:id="@+id/btnAlert" android:text="Show Alert"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:id="@+id/btnCustomToast"
+        android:text="Custom Toast"/>
+
+
 
 </LinearLayout>
