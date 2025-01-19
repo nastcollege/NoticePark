@@ -7,6 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
@@ -15,6 +16,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+
+import com.google.android.material.snackbar.Snackbar;
 
 public class AlertActivity extends AppCompatActivity {
     private Button btnAlert;
@@ -66,6 +69,19 @@ public class AlertActivity extends AppCompatActivity {
             toast.setView(layout);//setting the view of custom toast layout
             toast.show();
 
+        });
+
+        Button btnSnakeBar = findViewById(R.id.btnSnakeBar);
+        btnSnakeBar.setOnClickListener(view1 -> {
+            LinearLayout coordinatorLayout = findViewById(R.id.main);
+            Snackbar snackbar = Snackbar
+                    .make(coordinatorLayout, "Message is deleted", Snackbar.LENGTH_LONG)
+                    .setAction("UNDO", view -> {
+                        Snackbar snackbar1 = Snackbar.make(coordinatorLayout, "Message is restored!",
+                                Snackbar.LENGTH_SHORT);
+                        snackbar1.show();
+                    });
+            snackbar.show();
         });
 
     }
