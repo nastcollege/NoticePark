@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">NoticePark</string>
 
@@ -19,30 +20,36 @@
     <string name="welcome">"Welcome !"</string>
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
-    <string name="login_failed">"Login failed"</string>
+    <string name="login_failed">लगईन असफल भयो</string>
 
 
 
 
     <array name="countries">
-        <item>Nepal</item>
-        <item>China</item>
-        <item>India</item>
-        <item>USA</item>
-        <item>Canada</item>
-        <item>Other</item>
+        <item>
+            नेपाल</item>
+        <item>
+            चीन</item>
+        <item>
+            भारत</item>
+        <item>संयुक्त राज्य अमेरिका</item>
+        <item>
+            क्यानडा</item>
+        <item>
+            अन्य</item>
     </array>
 
 
 
-    <string name="login_button">Login</string>
-    <string name="register_button">Register</string>
-    <string name="application_login">Application Login</string>
-    <string name="enter_username">Enter Username</string>
-    <string name="enter_password">Enter Password</string>
-    <string name="login">Login</string>
-    <string name="dont_have_an_account_click_here">Dont have an account?
-Click Here</string>
-
+    <string name="login_button">लगइन गर्नुहोस्</string>
+    <string name="register_button">दर्ता गर्नुहोस्</string>
+    <string name="application_login">आवेदन लगइन</string>
+    <string name="enter_username">
+प्रयोगकर्ता नाम प्रविष्ट गर्नुहोस्</string>
+    <string name="enter_password">पासवर्ड प्रविष्ट गर्नुहोस्</string>
+    <string name="login">लगइन गर्नुहोस्</string>
+    <string name="dont_have_an_account_click_here">
+खाता छैन?
+यहाँ क्लिक गर्नुहोस्</string>
 
 </resources>
