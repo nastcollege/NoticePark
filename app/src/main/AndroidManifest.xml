@@ -17,10 +17,10 @@
         android:theme="@style/Theme.NoticePark"
         tools:targetApi="31">
         <activity
-            android:name=".DbAppActivity"
+            android:name=".MultiLangActivity"
             android:exported="false" />
         <activity
-            android:name=".MultiLangActivity"
+            android:name=".DbAppActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
