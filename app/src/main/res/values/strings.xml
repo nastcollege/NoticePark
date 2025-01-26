@@ -22,8 +22,6 @@
     <string name="login_failed">"Login failed"</string>
 
 
-
-
     <array name="countries">
         <item>Nepal</item>
         <item>China</item>
@@ -32,7 +30,6 @@
         <item>Canada</item>
         <item>Other</item>
     </array>
-
 
 
     <string name="login_button">Login</string>
